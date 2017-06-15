@@ -1,0 +1,99 @@
+#parallax {
+    /* The image used */
+    background-image: url("images/18.jpg");/*background images should ne appply here not working in html section*/
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax2 {
+    /* The image used */
+    background-image: url("images/16.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallaxx {
+    /* The image used */
+    background-image: url("images/2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section{
+  height: 700px;
+}
+#section{
+  margin-top:10px;
+  height: 300px;
+}
+#para{
+  text-align: center;
+  font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+   text-transform: uppercase;
+  color: rgba(0,0,0,0.71);
+  /*font-weight: 500px;*/
+}
+.material-icons{
+   text-align: center;
+  margin: 40px 0;
+    color: #ee6e73;
+    font-size: 7rem;
+    /*display: block;*/
+}
+h2{
+  font-family: sans-serif;
+  text-transform:capitalize;
+  color:#1a237e;
+}
+header{
+
+  height: 100px;
+  background-color:white;
+}
+header h1{
+  margin: 0px;
+   padding: 0px;
+    color: #ee6e73;
+  /*font-weight: 100;*/
+  text-transform: uppercase;
+  font-family: arial,helvetica,sans-serif;
+
+}
+#nav{
+  box-shadow: none;
+  background-color:white;
+  justify-content: flex-end;
+  height: 100px;
+  display:flex;
+}
+#nav a{
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color:purple ;
+margin-left: 50px;
+}
+.indicator{
+  will-change: left,right;
+}

@@ -26,7 +26,7 @@
 }
 #parallaxx {
     /* The image used */
-    background-image: url("images/home.jpg");
+    background-image: url("images/bb.jpg");
 
     /* Set a specific height */
     min-height: 500px;
@@ -38,7 +38,7 @@
     background-size: cover;
 }
 #backimage{
-  background-image: url("images/6.jpg");
+  background-image: url("images/b2.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -124,8 +124,32 @@ footer p{
   margin-top:45px;
 
 }
+
 h5{
   margin:0px;
   padding:0px;
 }
+.content:hover{
+  background-color:#004d40 ;
+}
+.content:hover a{
+  color:white;
+}
+ .content:hover p{
+  color:white;
+}
+ .content:hover h5{
+  color:#a7ffeb ;
+}
+/*footer:hover p{
+  color:white;
+}*/
+footer i:hover
+{
+  cursor:pointer;
+  color:white;
+}
+footer{
+  margin-top:2px;
+  height:400px;
 }

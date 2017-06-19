@@ -70,13 +70,13 @@
 .material-icons{
    text-align: center;
   margin: 40px 0;
-    color: #ee6e73;
+    color: #ee6e73;;
     font-size: 7rem;
-    /*display: block;*/
+    display: block;
 }
-h2{
+.header{
   font-family: sans-serif;
-  text-transform:capitalize;
+  text-transform:uppercase;
   color:#1a237e;
 }
 header{
@@ -107,9 +107,7 @@ header h1{
   color:purple ;
 margin-left: 50px;
 }
-.indicator{
-  will-change: left,right;
-}
+
 #bottom{
   /*padding:0;*/
   margin-top:0px;
@@ -149,7 +147,32 @@ footer i:hover
   cursor:pointer;
   color:white;
 }
+footer p
+{
+
+  font-weight: 300;
+  cursor:pointer;
+  /*color:white;*/
+}
+footer h5
+{
+  margin-top:30px;
+  cursor:pointer;
+  color:white;
+}
 footer{
+  background-color:#004d40;
   margin-top:2px;
   height:400px;
+  overflow: hidden;
+}
+footer a{
+  font-weight:300;
+  font-size: 12px;
+}
+footer a:hover{
+  background-color:yellow;
+}
+footer i{
+  padding-left:0px;
 }

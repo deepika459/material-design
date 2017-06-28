@@ -1,0 +1,33 @@
+h3{
+  background-color: #033346;
+  height: 80px;
+  top:0px;
+  margin: 0px;
+  position: fixed;
+  width: 100%;
+}
+header{
+
+  margin: 0px;
+}
+.start{
+  background-color: #028090;
+  height: 400px;
+}
+.star{
+  background-color: #033346;
+  height: 400px;
+}
+.middle{
+  height: 500px;
+  background-color: #2E2E2E;
+}
+.end{
+  background-image: url("images/logo.jpg");
+      background-color: #028090;
+  height: 250px;
+}
+.foot{
+  background-color: #033346;
+  height:100px;
+}

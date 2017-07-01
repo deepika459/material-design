@@ -1,0 +1,30 @@
+.btn-floating {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+      z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(38, 166, 154);
+    cursor: pointer;
+    vertical-align: middle;
+
+    padding: 0px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      /*font-size: 24px;*/
+      /*line-height: 1;*/
+      letter-spacing: normal;
+      text-transform: none;
+      /*display: inline-block;*/
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      /*-webkit-font-feature-settings: 'liga';*/
+      -webkit-font-smoothing: antialiased;
+  }

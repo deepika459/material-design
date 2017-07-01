@@ -1,3 +1,7 @@
+body{
+  font-family: font-family: 'Montserrat', sans-serif;
+}
+
 h3{
   height: 80px;
   top:0px;
@@ -32,6 +36,7 @@ width: 100%;
 
 }
 .start{
+  /*position: fixed;*/
   background-color: #028090;
   height: 460px;
   width: 100%;
@@ -56,6 +61,7 @@ width: 100%;
 .foot{
   background-color: #033346;
   height:100px;
+  overflow: hidden;
 }
 .pulse{
   position: relative;
@@ -114,7 +120,7 @@ width: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 .containt2{
- 
+
   color: white;
     font-size: 25px;
 /*text-align: justify;*/
@@ -155,4 +161,73 @@ font-family: 'Montserrat', sans-serif;
 .logotag{
   position: relative;
   left: 4em;
+}
+.center{
+  padding-top: 1em;
+  text-align: center;
+  font-size: 30px;
+}
+.button{
+
+  padding-top: 6px;
+  text-align: center;
+}
+.button a{
+font-weight:600;
+  padding-top: 10px;
+  font-size: 20px;
+    border: 1px solid #ffffff;
+    /*color: #ffffff;*/
+    background-color: transparent;
+  height: 60px;
+  width: 270px;
+  border-radius: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn{
+  padding: 0.85em 1em;
+}
+.btn:hover{
+  color:#028090;
+  background-color: white;
+}
+.copyright{
+  font-size: 12px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.copy{
+  font-size: 12px;
+  padding-top: .5rem;
+  padding-left: 2rem;
+}
+.footer{
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: 500px;
+}
+.footerend{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  right: 100px;
+}
+.follow{
+  padding-top:2rem;
+}
+.icon{
+  display: flex;
+}
+.icon a{
+  color: #028090;
+}
+.icons{
+  padding-left: 1rem;
+}
+.fa:hover a{
+background-color:#033346;
+}
+ .fa{
+background-color:white;
 }

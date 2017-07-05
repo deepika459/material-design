@@ -1,5 +1,7 @@
 body{
   font-family: font-family: 'Montserrat', sans-serif;
+
+overflow-x: hidden;
 }
 
 h3{
@@ -21,6 +23,7 @@ header{
   margin: 0px;
   height: 90px;
 position: fixed;
+z-index: 1;
 width: 100%;
 }
 .divlogo{
@@ -50,7 +53,7 @@ width: 100%;
 }
 
 .middle{
-  height: 500px;
+  height: 530px;
   background-color: #2E2E2E;
 }
 .end{
@@ -60,7 +63,10 @@ width: 100%;
 }
 .foot{
   background-color: #033346;
-  height:100px;
+  height:110px;
+  margin: 0px;
+  /*padding-top: 6px;*/
+
   overflow: hidden;
 }
 .pulse{
@@ -110,7 +116,7 @@ width: 100%;
   left: 69px;
 }
 #canvas p{
-  z-index: 1;
+  /*z-index: 1;*/
   color: white;
 }
 .containt{
@@ -192,29 +198,44 @@ font-weight:600;
   background-color: white;
 }
 .copyright{
+
   font-size: 12px;
   padding-top: 2rem;
   padding-left: 2rem;
 }
 .copy{
+
   font-size: 12px;
   padding-top: .5rem;
   padding-left: 2rem;
 }
 .footer{
+
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   position: relative;
-  left: 500px;
+  left: 450px;
 }
 .footerend{
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   position: relative;
   right: 100px;
+
 }
 .follow{
-  padding-top:2rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .3px;
+  padding-top:20px;
+  transform: scaley(.9);
+
+}
+.follow1{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .3px;
+  /*padding-top:20px;*/
+  transform: scaley(.9);
+
 }
 .icon{
   display: flex;
@@ -223,11 +244,16 @@ font-weight:600;
   color: #028090;
 }
 .icons{
-  padding-left: 1rem;
+
+margin: 0px;
+  padding:2px 30px 2px 0px;
 }
-.fa:hover a{
+/*.fa:hover a{
 background-color:#033346;
-}
- .fa{
-background-color:white;
+}*/
+ /*.fa-facebook-square:hover{
+-webkit-filter: invert(100%);
+}*/
+#font:hover{
+  color: white;
 }

@@ -67,10 +67,10 @@ width: 100%;
   padding-top: 45px;
 }
 .rowdiv{
-  top: 40px;
+  top: 35px;
   position: relative;
-  left: 0px;
-  -webkit-coloumn-count:3;
+  left: 40px;
+  /*-webkit-coloumn-count:3;*/
   /*margin-left: auto;*/
 }
 .division1{
@@ -91,6 +91,7 @@ width: 100%;
   /*left:20px;*/
   font-size: 21px;
   font-weight: 500;
+  letter-spacing: -0.9px;
 }
 .statement{
   transform:scale(1,0.8);
@@ -109,8 +110,8 @@ width: 100%;
 /*.container{
 margin:0px -10px 0px -9px;
 }*/
-.coloum{
-/*margin-right:0px;*/
+.col.m3{
+margin-right: 110px;
 
 }
 

@@ -12,7 +12,9 @@
 .panel2{
   position: relative;
   width: 650px;
+  left: 0px;
     height:100%;
+    padding-left: 0px;
   float: right;
 }
 header{
@@ -76,7 +78,7 @@ font-size: 16.5px;
 
 }
 .content1 {
-  color: #666666;
+  color: #777777;
     font-family: "Montserrat";
     line-height:1.5em;
 font-size: 16.5px;
@@ -94,6 +96,7 @@ font-size: 16.5px;
 
 }
 .button{
+  padding-bottom: 10px;
    cursor: pointer;
   border: 2px solid #333333 ;
   padding:5px;
@@ -117,4 +120,14 @@ font-size: 16.5px;
 }
 .button:hover span{
   color:white;
+}
+.jumbotron{
+
+  overflow: hidden;
+  margin-left: 0px;
+  padding:0px;
+  margin: 0px; 
+  background-color: grey;
+  width: 600px;
+  height:500px;
 }

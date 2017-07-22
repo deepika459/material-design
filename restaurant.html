@@ -13,13 +13,16 @@
       <h5 class="white-text">swiss roll</h5>
     </header>
   <div class="row">
-    <div class="division">
 
-      <div class="panel1">
-        <img class="image"src="images/khana4.jpg" alt="khana" width="680px" height="100%">
-       </div>
-      <div class=" panel2 ">
-        <div class="container">
+      <div class="col m6 s2 l4 ">
+        <div class="panel1">
+          <img class="image"src="images/khana4.jpg" alt="khana" width="680px" height="100%">
+        </div>
+
+      </div>
+      <div class="col m6 s2 l4 butt">
+        <div class=" panel2 ">
+          <div class="container" >
 
             <div class="tag"></div>
             <div class="heading">
@@ -27,23 +30,23 @@
                 pushing the boundaries of modern-American cuisine.</h2>
               </div>
               <div class="row roww">
-                <div class="col m6 content">
+                <div class="col m6 ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                   Duis consectetur varius consectetur.
-                   Integer varius dictum enim, et lacinia neque mollis ut.
-                    Donec malesuada tortor nec urna consectetur, eget facilisis dui varius.
-                     Quisque leo nibh, porttitor at augue ac, faucibus auctor lorem.
-                   Ut consectetur cursus tellus id rutrum. Morbi nec urna arcu.
+                  Duis consectetur varius consectetur.
+                  Integer varius dictum enim, et lacinia neque mollis ut.
+                  Donec malesuada tortor nec urna consectetur, eget facilisis dui varius.
+                  Quisque leo nibh, porttitor at augue ac, faucibus auctor lorem.
+                  Ut consectetur cursus tellus id rutrum. Morbi nec urna arcu.
                 </div>
-                <div class="col m6 content1">
+                <div class="col m6 content1 ">
                   Sed faucibus nisl sed elit placerat dictum.
                   Aliquam volutpat sed augue eu tempus.
-                   Praesent sed mauris odio.
-                   Morbi a hendrerit diam, non semper felis.
-                   Ut molestie sagittis sapien. Nunc metus nunc,
-                   cursus a faucibus eu, consectetur eu urna.
-                   Suspendisse aliquet fermentum lectus,
-                   in rutrum augue rutrum.​
+                  Praesent sed mauris odio.
+                  Morbi a hendrerit diam, non semper felis.
+                  Ut molestie sagittis sapien. Nunc metus nunc,
+                  cursus a faucibus eu, consectetur eu urna.
+                  Suspendisse aliquet fermentum lectus,
+                  in rutrum augue rutrum.​
                 </div>
 
 
@@ -51,19 +54,58 @@
               <div class="button">
                 <center><span>View Upcoming Events</span></center>
               </div><br>
-               <div class="jumbotron">
-                 hbjbjb
-               </div>
+              <div class="jumbotron">
+                hbjbjb
+              </div>
+              <div class="spoon">
+                <img src="images/chef1.jpg" alt="spoon" width="670" height="300">
+              </div>
+            </div>
+                 <div class="div">
+                   <div class="row four">
+                     <div class="col m5">
+                       <img class="imag" id="imagg" src="images/food1.jpg" alt="image">
+                     </div>
+                     <div class="modal" id="mymodal">
+                       <span class="close" style="font-size:42px" onclick="document.getElementById('mymodal').style.display = 'none'">&times;</span>
+                       <img src="images/food1.jpg" alt="food" class="modalimage" id="img">
+                     </div>
+                     <div class="col m5">
+                       <img class="imag" id="imagg" src="images/food2.jpg" alt="image">
+                     </div>
+
+                   </div>
+                   <div class=" row four">
+                     <div class="col m5">
+                       <img class="imag"  src="images/food3.jpg" alt="image">
+                     </div>
+                     <div class="col m5">
+                       <img class="imag"  src="images/food4.jpg" alt="image">
+                     </div>
+
+                   </div>
+                 </div>
 
 
+          </div>
 
-
-        </div>
       </div>
-    </div>
+
 
   </div>
-
+<script>
+  var modal = document.getElementById('mymodal');
+  var image = document.getElementById('imagg');
+  var modalimg = document.getElementById('img');
+  var span = document.getElementsByClassName('close')
+  image.onclick = function(){
+    modal.style.display = "block";
+    modalimg.src = this.src;
+  }
+  span.onclick = function(){
+    modal.style.display = "none";
+  }
+</script>
 
 
 

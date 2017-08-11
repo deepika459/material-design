@@ -1,0 +1,185 @@
+header{
+  width: 100%;
+  /*max-width: 1339px;*/
+  height: 75px;
+  background-color:;
+z-index: 1;
+margin: 0px;
+padding: 0px;
+position: fixed;
+top: 0px;
+left: 0px
+}
+.topic{
+  font-family: "Raleway" !important;
+  text-decoration: none;
+  font-size: 48px;
+  word-spacing: 0px;
+  position: relative;
+  bottom: 0px;
+}
+header nav{
+
+  position: relative;
+  top: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+header p:hover{
+  cursor: pointer;
+  color:  #3ECCB5;
+}
+nav p{
+  color: pink;
+  padding:  0px 70px 0px 0px;
+}
+.logo{
+  display: flex;
+}
+.bigimage{
+  /*z-index: -1;*/
+  position: relative;
+  top: 50px;
+  left: 0px;
+  /*display: block;*/
+  /*overflow: hidden;*/
+  /*padding-bottom: 0px;*/
+}
+.white{
+  box-shadow: none;
+}
+.img{
+  background-image: url("images/p9.jpg");
+  /*z-index: -1;*/
+  /*overflow: hidden;*/
+  position: relative;
+  /*left: -7px;*/
+  width: 1349px;
+  height:  800px;
+  /*left: -8px;*/
+  margin: 0px;
+  image-orientation:
+  padding:0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 500px;
+}
+.main h1{
+  font-size: 100px;
+}
+.main p{
+
+  letter-spacing: 0.45em;
+}
+.home{
+  color:  #3ECCB5;
+}
+/*.middle{
+  z-index: -1;
+  position: relative;
+  top: -500px;
+  padding: 0px;
+  margin: 0px;
+  height: 800px;
+  border: 2px solid black;
+}*/
+.section{
+  position: relative;
+bottom: 890px;
+width: 600px;
+height: 570px;
+text-align: center;
+background-color: white;
+
+}
+.about{
+  left: 75px;
+    width: 468px;
+    position: absolute;
+    visibility: inherit;
+    top: 196px;
+}
+
+.parallax{
+    background-image: url("images/p3.jpg");
+  min-height:800px;
+  margin: 0px;
+  padding: 0px;
+
+  /*left: -8px;*/
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-container{  /*always remenber when you want to increase the height of an image increase the height of parallax-container */
+  position: relative;
+  top: -156px;
+  height: 900px;
+  padding: 0px;
+  margin:0px;
+  /*border: 2px solid black;*/
+}
+.community{
+    /*border: 2px solid black;*/
+position: relative;
+bottom: 727px;
+
+  padding-top: 70px;
+  margin: 0px;
+  height: 300px;
+}
+.para{
+  /*border:2px solid black;*/
+}
+span{
+  letter-spacing: 0.06em;
+  color: #000000;
+font-size: 52px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 46px;
+    /*line-height: 1.4em;*/
+    font-family: "playfair display", serif;
+}
+.para{
+  font-size: 24px;
+  font-family: "playfair display", serif;
+}
+.images{
+  position: relative;
+  bottom: 728px;
+  /*border: 2px solid black;*/
+  height: 500px;
+  }
+.mySlides{
+  width: 1349px;
+  height:500px;
+}
+.teal{
+  position: relative;
+  bottom: 728px;
+  height: 300px;
+}
+.greenpara{
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-weight: bold;
+  font-stretch: normal;
+
+}

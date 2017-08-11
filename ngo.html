@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ngo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+      <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+      <link rel="stylesheet" href="ngo.css" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <header>
+      <div class="white">
+        <div class="row">
+          <div class="col m4 logo">
+            <!-- <img src="images/ngo1.jpg" alt="image ngo" width="50px" height="50px"> -->
+            <a><h2 class="topic black-text"><b>URDO</b></h2></a>
+          </div>
+          <nav class="col m8 white">
+            <p class="home">home</p>
+            <p>about</p>
+            <p>communication</p>
+            <p>contact</p>
+          </nav>
+        </div>
+
+      </div>
+    </header>
+
+      <div class="bigimage">
+        <div class="img">
+          <!-- <img src="images/ngo2.jpg" alt="lane image" width="1346px"> -->
+        </div>
+        <div class="main">
+          <h1 class="topic">CO-WORKING</h1>
+          <p>WHERE INDIVIDIUALS AND OPPORTUNITY GO HAND IN HAND</p>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="parallax-container">
+        <div id = "parallax" class="parallax">
+          <!-- <img class="imagee" src="images/b2.jpg" alt=""> -->
+        </div>
+      </div>
+
+
+
+
+
+    <center><div class="section container hoverable">
+        <div class="about">
+          <h1>ABOUT US</h1>
+          <p>I'm a paragraph. Click here to add your own text and edit me.
+            It’s easy. Just click “Edit Text” or double click me to add your
+            own content and make changes to the font. Feel free to drag and
+            drop me anywhere you like on your page. I’m a great place for
+            you to tell a story and let your users know a little more about you.</p>
+
+        </div>
+        </div></center>
+        <div class="center-align community">
+          <span>OUR COMMUNITY</span>
+          <div class="para">
+            <p>urja research and development organisation</p>
+          </div>
+        </div>
+<div class="images">
+  <img class="mySlides" src="images/p8.jpg" >
+  <img class="mySlides" src="images/p10.jpg" >
+  <img class="mySlides" src="images/p9.jpg" >
+</div>
+<div class="teal accent-4">
+   <div class="white-text center greenpara">
+     spaces in the blank spaces ion the middle;
+   </div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+</body>
+</html>

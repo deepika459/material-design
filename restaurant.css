@@ -60,6 +60,18 @@ h5{
   letter-spacing: 0px !important;
 
 }
+.tagg{
+  position: relative;
+  top:70px;
+  left: 80px;
+  background-color: rgb(153, 153, 153);
+  width: 40px;
+  height: 3px;
+  font-family: "Raleway" !important;
+  text-transform: none !important;
+  letter-spacing: 0px !important;
+
+}
 .row .butt{
 
   float: right;
@@ -77,6 +89,7 @@ color: #333333;
 padding: 0px;
 margin: 0px;
 position: relative;
+left: 40px;
 }
 .content{
   width: 100px;
@@ -86,11 +99,6 @@ position: relative;
   left: 40px;
   position: relative;
 width: 200px;
-}
-.spoon{
-
-  position: relative;
-  left: -9px;
 }
 
 
@@ -140,15 +148,28 @@ column-count:1;
 }
 .jumbotron{
  position: relative;
- left: -9px;
+ left: -40px;
   overflow: hidden;
   margin-left: 0px;
   padding:0px;
   margin: 0px;
   background-color:grey;/*#fafafa*/
-  width: 670px;
+  width: 660px;
   height:500px;
 }
+.spoon{
+
+  position: relative;
+  left:-40px;
+}
+.chefpic{
+  padding-bottom: 80px;
+ position: relative;
+ top: 100px;
+ /*left: 50px;*/
+
+}
+
 .imag{
   /*margin: 10px;*/
   padding:0px;

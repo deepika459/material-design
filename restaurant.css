@@ -1,12 +1,13 @@
 .panel1{
   width: 100%;
   height:100%;
-  /*background-image: url("images/khana3.jpg");*/
-  position: fixed;
+  font-family: font-family: "Raleway" !important;
+  /*background-image: url("images/khana4.jpg");*/
+  /*position: fixed;*/
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 80.97% 0.00% ;
+  /*background-position: 80.97% 0.00% ;*/
   margin: 0px;
   padding:0px;
 
@@ -16,8 +17,9 @@
   position: relative;
   width: 650px;
   left: 0px;
-    height:100%;
-    padding-left: 0px;
+  overflow:auto;
+  height:100%;
+  padding-left: 0px;
   float: right;
 }
 header{
@@ -30,19 +32,26 @@ header{
   /*height: 40px;*/
 }
 .image{
-  position: relative;
+  position:fixed;
   left: -12px;
   padding:0px;
   margin:0px;
+  z-index: -1;
   padding-top:50px;
 }
-.text{
-position: relative;
-top: 70px;
-left: 80px;
+.texx{
+position:fixed;
+text-transform: uppercase;
+font-weight: bold;
+/*font-size: 25px;*/
+top: 90px;
+left: 60px;
 color: white;
+letter-spacing: 8px;
+font-size: 1.8em;
+line-height: 1.25;
 z-index:;
-border: 2px solid white;
+/*border: 2px solid white;*/
 }
 h5{
 
@@ -71,6 +80,29 @@ h5{
   text-transform: none !important;
   letter-spacing: 0px !important;
 
+}
+.headchef{
+  position: relative;
+  top: 60px;
+  left: 80px;
+}
+.info{
+  position: relative;
+  top: 100px;
+  /*left:px;*/
+  /*border-collapse: collapse;*/
+}
+.cheftext{
+  position: relative;
+  right: 60px;
+font-style:"Raleway" !important;
+color: #666 !important;
+font-family: "EB Garamond" !important;
+}
+.names{
+  position: relative;
+  left: 80px;
+  color: #626262;
 }
 .row .butt{
 
@@ -146,21 +178,22 @@ column-count:1;
 .button:hover span{
   color:white;
 }
-.jumbotron{
+.jumb{
  position: relative;
- left: -40px;
-  overflow: hidden;
+ /*left: -150px;*/
+  /*overflow: hidden;*/
   margin-left: 0px;
   padding:0px;
   margin: 0px;
   background-color:grey;/*#fafafa*/
-  width: 660px;
-  height:500px;
+  width: 600px;
+  height:1100px;
+  border: 2px solid black;
 }
 .spoon{
-
+  /*background-size: cover;*/
   position: relative;
-  left:-40px;
+  left:;
 }
 .chefpic{
   padding-bottom: 80px;
@@ -230,3 +263,13 @@ column-count:1;
     from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
 }
+/*@media (min-width: 740px) {
+  .target-your-image{
+    clear:both
+  }
+}
+.editor {
+  .wrap-guide {
+    visibility: hidden;
+  }
+}*/

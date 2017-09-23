@@ -218,7 +218,6 @@ font-size: 52px;
   left: 20px;
 }
 .info:hover{
-display:none;
 color: blue;
 transition: 3s;
 }
